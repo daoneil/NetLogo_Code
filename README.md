@@ -1,4 +1,9 @@
 # NetLogo_Code for an organizational simulation.
-The article "Organizational Simulation for Model Based Systems Engineering" describes the NetLogo simulators included in this repository. 
-https://www.sciencedirect.com/science/article/pii/S1877050913000355
-An Info tab in the files provides additional information.
+The article [Organizational Simulation for Model Based Systems Engineering](https://www.sciencedirect.com/science/article/pii/S1877050913000355) describes the NetLogo simulators included in this repository. An Info tab on the NetLogo programs provide additional information.
+
+### Contents of this repostory include:
+
+- [20120607_OrganizationStructureModel.nlogo3d](https://github.com/daoneil/NetLogo_Code/blob/master/20120607_OrganizationStructureModel.nlogo3d) - generates a 3D model of a hierarchical organization. Ply means the number of levels at which branching occurs. Output in the Command Center are the number of nodes and links. 
+- [20120628_ConcentricRing_Network_3PM.nlogo](https://github.com/daoneil/NetLogo_Code/blob/master/20120628_ConcentricRing_Network_3PM.nlogo) - requires the [Configuration.txt](https://github.com/daoneil/NetLogo_Code/blob/master/Configuration.txt) file to specify the organizational structure
+- [20120723_System_Generator.nlogo](https://github.com/daoneil/NetLogo_Code/blob/master/20120723_System_Generator.nlogo) - requires the [Generated_System.txt](https://github.com/daoneil/NetLogo_Code/blob/master/Generated_System.txt) file to specify the organizational structure. The Generated_system.txt file was produced by macros in the Excel workbook 20120723_System_DSM_Generator.xlsm. The output of this program is a file named Generated_Weights.txt, which is a list of values that represent subsystem weights in kilograms.
+- [20120716_Multiple_RectangularPlates_with_HeatTurtles_1230.nlogo](https://github.com/daoneil/NetLogo_Code/blob/master/20120716_Multiple_RectangularPlates_with_HeatTurtles_1230.nlogo) - simulates heat transfer, via turtles, among multiple rectangular plates.This program builds upon the [Heat Diffusion model in the Netlogo Modeling Commons website, 1998.](http://ccl.northwestern.edu/netlogo/models/HeatDiffusion)
